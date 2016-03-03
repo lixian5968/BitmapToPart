@@ -36,3 +36,12 @@ Rect mBound;
 自定义 一个View  
 在里面 ValueAnimator anim = ValueAnimator.ofFloat(0f, 1f); 
 设置监听 通过时间戳来判定 具体的进度
+
+
+4：NewPointView
+ViewGroup rootView = (ViewGroup) ((Activity) (context)).findViewById(Window.ID_ANDROID_CONTENT);
+ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+rootView.addView(this, lp);
+rootView 根目录上面添加 自定义的View
+
+
